@@ -32,6 +32,10 @@ def main():
 
 def add_email(students, professors):
     email = input("Enter your email: ")
+    validator = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
+    if not re.match(validator, email):
+        print("Invalid syntax")
+        return
     parts = email.split("@")  # split into user and domain
     if len(parts) != 2:
         print("Invalid format")
