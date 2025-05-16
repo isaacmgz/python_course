@@ -3,7 +3,8 @@ from clinic import Clinic
 def menu():
     clinic = Clinic()
     while True:
-        print("1. Register pet \n"
+        print("🐾 MENÚ PRINCIPAL - VETERINARIA 🐾 \n"
+              "1. Register pet \n"
               "2. Register consultation \n"
               "3. List pets \n"
               "4. Ver historial de consultas de una mascota específica. \n"
@@ -26,4 +27,3 @@ def menu():
 
 
 menu()
-
