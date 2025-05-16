@@ -9,4 +9,4 @@ class Pet:
         self.owner = owner
 
     def __str__(self):
-        return f"Nombre: {self.name} \n Especie: {self.species}\n Edad: {self.age} años \n Dueño: {self.owner}"
+        return f"🐾 Mascota\n Nombre: {self.name} \n Especie: {self.species}\n Edad: {self.age} años \n Dueño: {self.owner}"
