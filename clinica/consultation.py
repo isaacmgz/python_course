@@ -9,7 +9,10 @@ class Consultation:
         self.pet_name = pet_name
 
     def __str__(self):
-        return f"Nombre: {self.pet_name} \n Razón: {self.reason}\n Diagnostico {self.diagnosis} \n Fecha: {self.date}"
+        return f"📋 Consulta \n Nombre: {self.pet_name} \n Razón: {self.reason}\n Diagnostico {self.diagnosis} \n Fecha: {self.date}"
+
+
+
 
 
 
