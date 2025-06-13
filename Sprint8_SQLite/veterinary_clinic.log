@@ -1,0 +1,33 @@
+2025-06-12 20:07:21,257 - INFO - Iniciando Sistema de Gestión de Clínica Veterinaria
+2025-06-12 20:07:21,259 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:07:21,680 - INFO - Tablas de la base de datos inicializadas correctamente
+2025-06-12 20:07:21,680 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:07:21,681 - INFO - Sistema de clínica inicializado
+2025-06-12 20:07:21,682 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:07:21,683 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:07:21,683 - INFO - Cargadas 0 mascotas y 0 dueños de la base de datos
+2025-06-12 20:07:21,684 - INFO - Cargadas 0 consultas de la base de datos
+2025-06-12 20:08:26,428 - INFO - Creando nuevo dueño: jorge
+2025-06-12 20:08:39,397 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:08:39,465 - INFO - Nuevo dueño añadido: jorge con ID: 1
+2025-06-12 20:08:39,465 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:08:39,466 - INFO - Nuevo dueño registrado: jorge
+2025-06-12 20:08:39,468 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:08:39,509 - INFO - Nueva mascota añadida: sebastian con ID: 1
+2025-06-12 20:08:39,510 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:08:39,510 - INFO - Nueva mascota registrada: sebastian (perra, chandoso) para dueño jorge
+2025-06-12 20:08:46,372 - INFO - Sistema de Gestión de Clínica Veterinaria finalizado
+2025-06-12 20:08:53,754 - INFO - Iniciando Sistema de Gestión de Clínica Veterinaria
+2025-06-12 20:08:53,756 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:08:53,758 - INFO - Tablas de la base de datos inicializadas correctamente
+2025-06-12 20:08:53,758 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:08:53,759 - INFO - Sistema de clínica inicializado
+2025-06-12 20:08:53,759 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:08:53,760 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:08:53,761 - INFO - Cargadas 1 mascotas y 1 dueños de la base de datos
+2025-06-12 20:08:53,761 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:08:53,762 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:08:53,762 - INFO - Cargadas 0 consultas de la base de datos
+2025-06-12 20:08:57,316 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:08:57,317 - INFO - Conexión a la base de datos cerrada
+2025-06-12 20:08:57,320 - INFO - Listadas 1 mascotas de la base de datos

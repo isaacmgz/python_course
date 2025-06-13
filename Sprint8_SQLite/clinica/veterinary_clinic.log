@@ -1,0 +1,220 @@
+2025-06-04 18:35:22,314 - INFO - Starting Veterinary Clinic Management System
+2025-06-04 18:35:22,314 - INFO - Clinic system initialized
+2025-06-04 18:35:28,149 - INFO - User selected menu option: 3
+2025-06-04 18:35:28,149 - INFO - Starting pet listing process
+2025-06-04 18:35:28,149 - WARNING - Attempted to list pets but none are registered
+2025-06-04 18:35:36,661 - INFO - User selected menu option: 1
+2025-06-04 18:35:36,662 - INFO - Starting pet registration process
+2025-06-04 18:36:04,251 - INFO - Creating new owner: Mei
+2025-06-04 18:36:22,146 - INFO - New owner registered: Mei
+2025-06-04 18:36:22,146 - INFO - New pet registered: Angel (Dog, Black) for owner Mei
+2025-06-04 18:36:34,620 - INFO - User selected menu option: 2
+2025-06-04 18:36:34,620 - INFO - Starting consultation registration process
+2025-06-05 17:03:41,752 - INFO - Starting Veterinary Clinic Management System
+2025-06-05 17:03:41,752 - INFO - Clinic system initialized
+2025-06-05 17:04:13,176 - INFO - Starting Veterinary Clinic Management System
+2025-06-05 17:04:13,176 - INFO - Clinic system initialized
+2025-06-05 17:04:13,176 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 17:04:13,176 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 17:04:16,086 - INFO - User selected menu option: 1
+2025-06-05 17:04:16,086 - INFO - Starting pet registration process
+2025-06-05 17:04:56,226 - INFO - Creating new owner: Mei
+2025-06-05 17:05:11,936 - INFO - New owner registered: Mei
+2025-06-05 17:05:11,936 - INFO - New pet registered: Angel (Dog, Golden Retriever) for owner Mei
+2025-06-05 17:05:21,687 - INFO - User selected menu option: 2
+2025-06-05 17:05:21,687 - INFO - Starting consultation registration process
+2025-06-05 17:25:17,593 - INFO - Starting Veterinary Clinic Management System
+2025-06-05 17:25:17,593 - INFO - Clinic system initialized
+2025-06-05 17:25:17,593 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 17:25:17,593 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 17:25:23,334 - INFO - User selected menu option: 1
+2025-06-05 17:25:23,334 - INFO - Starting pet registration process
+2025-06-05 17:25:36,321 - INFO - Creating new owner: Mei
+2025-06-05 17:25:39,973 - INFO - New owner registered: Mei
+2025-06-05 17:25:39,973 - INFO - New pet registered: Angel (Dog, Doberman) for owner Mei
+2025-06-05 17:25:42,651 - INFO - User selected menu option: 5
+2025-06-05 17:25:42,651 - INFO - User chose to exit the program
+2025-06-05 17:25:42,651 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 17:25:42,651 - INFO - Guardadas 0 consultas en JSON
+2025-06-05 17:25:42,652 - INFO - Veterinary Clinic Management System terminated
+2025-06-05 17:25:55,084 - INFO - Starting Veterinary Clinic Management System
+2025-06-05 17:25:55,084 - INFO - Clinic system initialized
+2025-06-05 17:25:55,084 - INFO - Dueño cargado desde CSV: Mei
+2025-06-05 17:25:55,084 - INFO - Mascota cargada desde CSV: Angel
+2025-06-05 17:25:55,084 - INFO - 0 consultas cargadas desde JSON
+2025-06-05 17:25:58,160 - INFO - User selected menu option: 3
+2025-06-05 17:25:58,160 - INFO - Starting pet listing process
+2025-06-05 17:25:58,160 - INFO - Listed 1 pets
+2025-06-05 17:26:11,569 - INFO - User selected menu option: 4
+2025-06-05 17:26:11,569 - INFO - Starting consultation search process
+2025-06-05 17:26:11,569 - WARNING - Attempted to search consultations but none are registered
+2025-06-05 17:26:16,190 - WARNING - No consultations found for pet: Angel
+2025-06-05 17:26:36,741 - INFO - User selected menu option: 5
+2025-06-05 17:26:36,741 - INFO - User chose to exit the program
+2025-06-05 17:26:36,741 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 17:26:36,741 - INFO - Guardadas 0 consultas en JSON
+2025-06-05 17:26:36,742 - INFO - Veterinary Clinic Management System terminated
+2025-06-05 17:30:57,103 - INFO - Starting Veterinary Clinic Management System
+2025-06-05 17:30:57,103 - INFO - Clinic system initialized
+2025-06-05 17:30:57,104 - INFO - Dueño cargado desde CSV: Mei
+2025-06-05 17:30:57,104 - INFO - Mascota cargada desde CSV: Angel
+2025-06-05 17:30:57,104 - INFO - 0 consultas cargadas desde JSON
+2025-06-05 17:31:01,465 - INFO - User selected menu option: 3
+2025-06-05 17:31:01,465 - INFO - Starting pet listing process
+2025-06-05 17:31:01,465 - INFO - Listed 1 pets
+2025-06-05 17:31:08,355 - INFO - User selected menu option: 5
+2025-06-05 17:31:08,355 - INFO - User chose to exit the program
+2025-06-05 17:31:08,356 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 17:31:08,356 - INFO - Guardadas 0 consultas en JSON
+2025-06-05 17:31:08,356 - INFO - Veterinary Clinic Management System terminated
+2025-06-05 17:31:13,305 - INFO - Starting Veterinary Clinic Management System
+2025-06-05 17:31:13,305 - INFO - Clinic system initialized
+2025-06-05 17:31:13,305 - INFO - Dueño cargado desde CSV: Mei
+2025-06-05 17:31:13,305 - INFO - Mascota cargada desde CSV: Angel
+2025-06-05 17:31:13,305 - INFO - 0 consultas cargadas desde JSON
+2025-06-05 17:31:15,471 - INFO - User selected menu option: 2
+2025-06-05 17:31:15,472 - INFO - Starting consultation registration process
+2025-06-05 17:32:29,983 - INFO - New consultation registered for pet Angel on 2025-05-30 04:01
+2025-06-05 17:32:35,818 - INFO - User selected menu option: 4
+2025-06-05 17:32:35,819 - INFO - Starting consultation search process
+2025-06-05 17:32:41,062 - INFO - Found 1 consultations for pet Angel
+2025-06-05 17:32:52,488 - INFO - User selected menu option: 5
+2025-06-05 17:32:52,488 - INFO - User chose to exit the program
+2025-06-05 17:32:52,488 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 17:32:52,488 - INFO - Guardadas 1 consultas en JSON
+2025-06-05 17:32:52,488 - INFO - Veterinary Clinic Management System terminated
+2025-06-05 19:06:35,565 - INFO - Clinic system initialized
+2025-06-05 19:06:35,565 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:06:35,565 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:06:35,565 - INFO - Guardadas 1 consultas en JSON
+2025-06-05 19:06:35,565 - INFO - Clinic system initialized
+2025-06-05 19:06:35,566 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:06:35,566 - INFO - 1 consultas cargadas desde JSON
+2025-06-05 19:06:35,566 - INFO - 2 consultas cargadas desde JSON
+2025-06-05 19:06:35,566 - INFO - Clinic system initialized
+2025-06-05 19:06:35,566 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:06:35,566 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:06:35,566 - INFO - New owner registered: Luis
+2025-06-05 19:06:35,566 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 19:06:35,567 - INFO - Clinic system initialized
+2025-06-05 19:06:35,567 - INFO - Dueño cargado desde CSV: Luis
+2025-06-05 19:06:35,567 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:06:35,567 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:06:35,567 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:06:35,567 - INFO - Clinic system initialized
+2025-06-05 19:06:35,567 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:06:35,567 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:06:35,567 - INFO - Clinic system initialized
+2025-06-05 19:06:35,567 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:06:35,567 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:06:35,568 - ERROR - Invalid characters in field 'nombre': M4ria
+2025-06-05 19:07:35,351 - INFO - Clinic system initialized
+2025-06-05 19:07:35,351 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:35,351 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:35,351 - INFO - Guardadas 1 consultas en JSON
+2025-06-05 19:07:35,352 - INFO - Clinic system initialized
+2025-06-05 19:07:35,352 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:35,352 - INFO - 1 consultas cargadas desde JSON
+2025-06-05 19:07:35,352 - INFO - 2 consultas cargadas desde JSON
+2025-06-05 19:07:35,353 - INFO - Clinic system initialized
+2025-06-05 19:07:35,353 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:35,353 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:35,353 - INFO - New owner registered: Luis
+2025-06-05 19:07:35,353 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 19:07:35,354 - INFO - Clinic system initialized
+2025-06-05 19:07:35,354 - INFO - Dueño cargado desde CSV: Luis
+2025-06-05 19:07:35,354 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:07:35,354 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:35,354 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:07:35,355 - INFO - Clinic system initialized
+2025-06-05 19:07:35,355 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:35,355 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:35,355 - INFO - Clinic system initialized
+2025-06-05 19:07:35,355 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:35,355 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:35,355 - ERROR - Invalid characters in field 'nombre': M4ria
+2025-06-05 19:07:47,333 - INFO - Clinic system initialized
+2025-06-05 19:07:47,333 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:47,333 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:47,333 - INFO - Guardadas 1 consultas en JSON
+2025-06-05 19:07:47,333 - INFO - Clinic system initialized
+2025-06-05 19:07:47,333 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:47,333 - INFO - 1 consultas cargadas desde JSON
+2025-06-05 19:07:47,333 - INFO - 2 consultas cargadas desde JSON
+2025-06-05 19:07:47,334 - INFO - Clinic system initialized
+2025-06-05 19:07:47,334 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:47,334 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:47,334 - INFO - New owner registered: Luis
+2025-06-05 19:07:47,334 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 19:07:47,334 - INFO - Clinic system initialized
+2025-06-05 19:07:47,334 - INFO - Dueño cargado desde CSV: Luis
+2025-06-05 19:07:47,334 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:07:47,334 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:47,334 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:07:47,335 - INFO - Clinic system initialized
+2025-06-05 19:07:47,335 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:47,335 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:47,335 - INFO - Clinic system initialized
+2025-06-05 19:07:47,335 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:07:47,335 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:07:47,335 - ERROR - Invalid characters in field 'nombre': M4ria
+2025-06-05 19:09:30,662 - INFO - Clinic system initialized
+2025-06-05 19:09:30,662 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:09:30,662 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:09:30,663 - INFO - Guardadas 1 consultas en JSON
+2025-06-05 19:09:30,663 - INFO - Clinic system initialized
+2025-06-05 19:09:30,663 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:09:30,663 - INFO - 1 consultas cargadas desde JSON
+2025-06-05 19:09:30,663 - INFO - 2 consultas cargadas desde JSON
+2025-06-05 19:09:30,664 - INFO - Clinic system initialized
+2025-06-05 19:09:30,665 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:09:30,665 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:09:30,665 - INFO - New owner registered: Luis
+2025-06-05 19:09:30,665 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 19:09:30,665 - INFO - Clinic system initialized
+2025-06-05 19:09:30,665 - INFO - Dueño cargado desde CSV: Luis
+2025-06-05 19:09:30,665 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:09:30,666 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:09:30,666 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:09:30,667 - INFO - Clinic system initialized
+2025-06-05 19:09:30,667 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:09:30,667 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:09:30,667 - INFO - Clinic system initialized
+2025-06-05 19:09:30,667 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:09:30,667 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:09:30,667 - ERROR - Invalid characters in field 'nombre': M4ria
+2025-06-05 19:17:21,177 - INFO - Clinic system initialized
+2025-06-05 19:17:21,177 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:17:21,177 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:17:21,177 - INFO - Guardadas 1 consultas en JSON
+2025-06-05 19:17:21,178 - INFO - Clinic system initialized
+2025-06-05 19:17:21,178 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:17:21,178 - INFO - 1 consultas cargadas desde JSON
+2025-06-05 19:17:21,178 - INFO - 1 consultas cargadas desde JSON
+2025-06-05 19:17:21,178 - INFO - Clinic system initialized
+2025-06-05 19:17:21,179 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:17:21,179 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:17:21,179 - INFO - New owner registered: Luis
+2025-06-05 19:17:21,179 - INFO - Guardadas 1 mascotas y dueños en CSV
+2025-06-05 19:17:21,179 - INFO - Clinic system initialized
+2025-06-05 19:17:21,179 - INFO - Dueño cargado desde CSV: Luis
+2025-06-05 19:17:21,179 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:17:21,179 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:17:21,180 - INFO - Dueño cargado desde CSV: Luis
+2025-06-05 19:17:21,180 - INFO - Mascota cargada desde CSV: Rex
+2025-06-05 19:17:21,180 - INFO - Clinic system initialized
+2025-06-05 19:17:21,180 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:17:21,180 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:17:21,180 - INFO - Clinic system initialized
+2025-06-05 19:17:21,180 - INFO - No existe archivo mascotas_dueños.csv, nada para cargar
+2025-06-05 19:17:21,180 - INFO - No existe archivo consultas.json, nada para cargar
+2025-06-05 19:17:21,181 - ERROR - Invalid characters in field 'nombre': M4ria
+2025-06-12 20:06:37,743 - INFO - Iniciando Sistema de Gesti�n de Cl�nica Veterinaria
+2025-06-12 20:06:37,924 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:06:38,276 - INFO - Tablas de la base de datos inicializadas correctamente
+2025-06-12 20:06:38,277 - INFO - Conexi�n a la base de datos cerrada
+2025-06-12 20:06:38,277 - INFO - Sistema de cl�nica inicializado
+2025-06-12 20:06:38,278 - INFO - Conectado a la base de datos: clinica_veterinaria.db
+2025-06-12 20:06:38,279 - INFO - Conexi�n a la base de datos cerrada
+2025-06-12 20:06:38,279 - INFO - Cargadas 0 mascotas y 0 due�os de la base de datos
+2025-06-12 20:06:38,279 - INFO - Cargadas 0 consultas de la base de datos
