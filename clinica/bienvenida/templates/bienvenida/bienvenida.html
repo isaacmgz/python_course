@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido a Amigos Peludos</title>
+    <img src="{% static 'bienvenida/logo.jpeg' %}" alt="Logo Amigos Peludos" class="logo">
+    <style>
+        body { 
+            font-family: 'Montserrat', Arial, sans-serif; 
+            background: #f7fafc; 
+            color: #333; 
+        }
+        .container { 
+            max-width: 600px; 
+            margin: 40px auto; 
+            background: #fff; 
+            padding: 30px; 
+            border-radius: 16px; 
+            box-shadow: 0 2px 16px #b2dfdb; 
+            text-align: center;
+        }
+        h1 { 
+            color: #2a9d8f; 
+            font-family: 'Fredoka One', cursive, Arial, sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .logo {
+            max-width: 180px; 
+            display: block; 
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px #b2dfdb;
+        }
+        .bienvenida-msg {
+            font-size: 1.35em;
+            color: #264653;
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .inicio-btn {
+            background: linear-gradient(90deg, #2a9d8f 60%, #e9c46a 100%);
+            color: #fff;
+            font-family: 'Fredoka One', cursive, Arial, sans-serif;
+            font-size: 1.3em;
+            padding: 18px 48px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px #b2dfdb;
+            transition: background 0.3s, transform 0.2s;
+            margin-top: 10px;
+        }
+        .inicio-btn:hover {
+            background: linear-gradient(90deg, #e76f51 60%, #f4a261 100%);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="{% static 'bienvenida/logo.jpeg' %}" alt="Logo Amigos Peludos" class="logo">
+        <h1>¡Bienvenido a Amigos Peludos!</h1>
+        <div class="bienvenida-msg">
+            Nos alegra recibirte.<br>
+            En <b>Amigos Peludos</b> cuidamos de tus mascotas con <span style="color:#e76f51;">amor</span> y <span style="color:#2a9d8f;">profesionalismo</span>.<br>
+            ¿En qué podemos ayudarte hoy?
+        </div>
+        <form action="{% url 'servicios' %}">
+            <button type="submit" class="inicio-btn">Ver Servicios</button>
+        </form>
+    </div>
+</body>
+</html>

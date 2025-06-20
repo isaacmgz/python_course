@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendar Cita - Amigos Peludos</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7fafc; color: #333; }
+        .container { max-width: 500px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 2px 16px #b2dfdb; text-align: center; }
+        label { font-weight: bold; font-size: 1.1em; }
+        input, select { padding: 8px; margin: 10px 0 20px 0; width: 80%; border-radius: 8px; border: 1px solid #b2dfdb; }
+        .btn { background: linear-gradient(90deg, #2a9d8f 60%, #e9c46a 100%); color: #fff; font-size: 1.1em; padding: 12px 30px; border: none; border-radius: 30px; cursor: pointer; margin-top: 10px; }
+        .btn:hover { background: linear-gradient(90deg, #e76f51 60%, #f4a261 100%); }
+        .horarios { margin: 20px 0; }
+        .horario-btn { margin: 8px; padding: 10px 22px; border-radius: 20px; border: none; background: #2a9d8f; color: #fff; cursor: pointer; font-weight: bold; }
+        .horario-btn:hover { background: #e76f51; }
+        .registro { margin-top: 30px; text-align: left; }
+        .registro label { display: block; margin-bottom: 6px; }
+        .registro input { width: 95%; }
+    </style>
+    <script>
+        function mostrarHorarios() {
+            const nombre = document.getElementById('nombre').value.trim();
+            if (!nombre) {
+                alert('Por favor, escribe el nombre de tu mascota.');
+                return;
+            }
+            document.getElementById('horarios').style.display = 'block';
+            document.getElementById('registro').style.display = 'none';
+        }
+        function seleccionarHorario(horario) {
+            document.getElementById('registro').style.display = 'block';
+            document.getElementById('horario_seleccionado').value = horario;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Agenda una cita para tu mascota</h2>
+        <label for="nombre">Nombre de tu mascota:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Rocky"><br>
+        <button class="btn" onclick="mostrarHorarios()">Ver horarios disponibles</button>
+
+        <div id="horarios" class="horarios" style="display:none;">
+            <h3>Horarios disponibles</h3>
+            <button class="horario-btn" onclick="seleccionarHorario('Lunes 10:00')">Lunes 10:00</button>
+            <button class="horario-btn" onclick="seleccionarHorario('Martes 14:30')">Martes 14:30</button>
+            <button class="horario-btn" onclick="seleccionarHorario('Miércoles 16:00')">Miércoles 16:00</button>
+        </div>
+
+        <form id="registro" class="registro" style="display:none;">
+            <h3>Registro obligatorio para agendar</h3>
+            <input type="hidden" id="horario_seleccionado" name="horario">
+            <label for="dueno">Nombre del dueño:</label>
+            <input type="text" id="dueno" name="dueno" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <button class="btn" type="submit">Registrar y agendar cita</button>
+        </form>
+    </div>
+</body>
+</html>
