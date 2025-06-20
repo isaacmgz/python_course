@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios de la Veterinaria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7fafc; color: #333; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 2px 16px #b2dfdb; text-align: center; }
+        h1 { color: #2a9d8f; margin-bottom: 30px; }
+        .servicios-lista {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .servicio {
+            background: #f1f8f6;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #b2dfdb55;
+            padding: 18px 16px 24px 16px;
+            width: 250px;
+            min-width: 200px;
+            transition: transform 0.2s;
+        }
+        .servicio:hover {
+            transform: scale(1.04);
+            box-shadow: 0 4px 16px #b2dfdb;
+        }
+        .servicio img {
+            border-radius: 10px;
+            margin-bottom: 12px;
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+        }
+        .servicio-titulo {
+            font-size: 1.2em;
+            color: #264653;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .btn {
+            background: linear-gradient(90deg, #2a9d8f 60%, #e9c46a 100%);
+            color: #fff;
+            font-family: 'Fredoka One', cursive, Arial, sans-serif;
+            font-size: 1.1em;
+            padding: 14px 38px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px #b2dfdb;
+            transition: background 0.3s, transform 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 10px 0 10px;
+        }
+        .btn:hover {
+            background: linear-gradient(90deg, #e76f51 60%, #f4a261 100%);
+            color: #fff;
+            transform: scale(1.05);
+        }
+        .volver-btn {
+            background: linear-gradient(90deg, #2a9d8f 60%, #e9c46a 100%);
+            color: #fff;
+            font-family: 'Fredoka One', cursive, Arial, sans-serif;
+            font-size: 1.2em;
+            padding: 14px 38px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px #b2dfdb;
+            transition: background 0.3s, transform 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .volver-btn:hover {
+            background: linear-gradient(90deg, #e76f51 60%, #f4a261 100%);
+            transform: scale(1.05);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nuestros Servicios</h1>
+        <div class="servicios-lista">
+            <div class="servicio">
+                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" alt="Consulta veterinaria">
+                <div class="servicio-titulo">Consultas generales</div>
+                <div>Atención médica preventiva y curativa para tus mascotas.</div>
+            </div>
+            <div class="servicio">
+                <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=400&q=80" alt="Cuidado especial mascotas">
+                <div class="servicio-titulo">Cuidado especial</div>
+                <div>Vacunación, desparasitación y chequeos periódicos.</div>
+            </div>
+            <div class="servicio">
+                <img src="https://images.unsplash.com/photo-1518715308788-3005759c61d3?auto=format&fit=crop&w=400&q=80" alt="Diagnóstico veterinario" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80';">
+                <div class="servicio-titulo">Diagnóstico y tratamiento</div>
+                <div>Laboratorio, rayos X y tratamientos especializados.</div>
+            </div>
+        </div>
+        <a href="{% url 'conoce_mas' %}" class="btn">Conoce más</a>
+    </div>
+</body>
+</html>
