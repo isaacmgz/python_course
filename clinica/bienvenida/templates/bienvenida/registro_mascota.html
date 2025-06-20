@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Mascota</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7fafc; }
+        .container { max-width: 400px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 2px 16px #b2dfdb; }
+        label { font-weight: bold; }
+        input, select { width: 100%; padding: 8px; margin: 10px 0 20px 0; border-radius: 8px; border: 1px solid #b2dfdb; }
+        .btn { background: #2a9d8f; color: #fff; font-size: 1.1em; padding: 12px 30px; border: none; border-radius: 30px; cursor: pointer; }
+        .btn:hover { background: #e76f51; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registrar Mascota</h2>
+        <form method="post">
+            {% csrf_token %}
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="species">Especie:</label>
+            <input type="text" id="species" name="species" required>
+            <label for="breed">Raza:</label>
+            <input type="text" id="breed" name="breed" required>
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="age" min="0" required>
+            <button type="submit" class="btn">Registrar mascota</button>
+        </form>
+    </div>
+</body>
+</html>
